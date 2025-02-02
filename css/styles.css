@@ -10972,6 +10972,12 @@ section.resume-section .resume-section-content {
 }
 
 /* phot grid */
+.img-tile {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -10987,10 +10993,4 @@ section.resume-section .resume-section-content {
   content: "";
   clear: both;
   display: table;
-}
-
-img {
-  object-fit: cover;
-  width: 300px;
-  height: 300px;
 }
